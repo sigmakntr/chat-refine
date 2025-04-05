@@ -1,0 +1,42 @@
+{
+  "name": "chat-refine",
+  "version": "1.0.0",
+  "description": "Chatwork上のメッセージ入力をOpenAI APIでリアルタイムに要約・校正できるChrome拡張機能。",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js",
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigmakntr/chat-refine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sigmakntr/chat-refine/issues"
+  },
+  "homepage": "https://github.com/sigmakntr/chat-refine#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.x",
+    "@types/react": "^18.x",
+    "@types/react-dom": "^18.x",
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^6.x",
+    "html-webpack-plugin": "^5.x",
+    "style-loader": "^3.x",
+    "ts-loader": "^9.x",
+    "typescript": "^5.x",
+    "webpack": "^5.x",
+    "webpack-cli": "^5.x"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.x",
+    "@emotion/styled": "^11.x",
+    "dotenv": "^16.4.7",
+    "react": "^18.x",
+    "react-dom": "^18.x"
+  }
+}
