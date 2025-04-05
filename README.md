@@ -1,4 +1,4 @@
-# RefineChat　– Chrome Extension for Chatwork × ChatGPT
+# ChatRefine　– Chrome Extension for Chatwork × ChatGPT
 ## 概要
 Chatwork上のメッセージ入力をOpenAI APIでリアルタイムに要約・校正できるChrome拡張機能。
 
